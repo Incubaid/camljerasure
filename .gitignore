@@ -9,3 +9,5 @@
 *.cmxa
 */_build/*
 *.*~
+/src/galois_test.byte
+/src/galois_test.native

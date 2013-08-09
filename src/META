@@ -1,0 +1,7 @@
+description = "camljerasure : ocamlbindings for jerasure"
+version = "0.0.1"
+exists_if = "camljerasure.cmxa"
+requires = "oUnit"
+#archive(byte)   = "camljerasure.cma"
+archive(native) = "camljerasure.cmxa"
+linkopts = "-cclib -ljerasure"
