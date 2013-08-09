@@ -1,0 +1,6 @@
+true: annot, debug
+<galois_test.*> : package(oUnit)
+
+"jerasure": include
+
+<galois_test.*{byte,native}>: is_main
