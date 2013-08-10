@@ -8,8 +8,10 @@ build:
 
 install:
 	ocamlfind install camljerasure META \
+	 _build/camljerasure.mli \
 	 _build/camljerasure.cmxa \
 	 _build/camljerasure.cma \
+	 _build/camljerasure.cmi \
 	 _build/libjerasure.a \
 	 _build/camljerasure.a
 
